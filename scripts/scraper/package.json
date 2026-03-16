@@ -1,0 +1,20 @@
+{
+  "name": "thecrag-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "npx tsx scrape-thecrag.ts",
+    "seed": "npx tsx seed-database.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
